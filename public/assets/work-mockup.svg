@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9edf2"/>
+      <stop offset="1" stop-color="#c9d1dc"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2140"/>
+      <stop offset="1" stop-color="#050d1b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5a17"/>
+      <stop offset="0.6" stop-color="#d4a84a"/>
+      <stop offset="1" stop-color="#f3dc9b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <path d="M0 0 L380 0 L250 520 L0 520Z" fill="#0b1a30"/>
+  <path d="M0 0 L120 0 L40 360 L0 380Z" fill="#b88a2e" opacity="0.85"/>
+  <!-- laptop -->
+  <rect x="150" y="70" width="470" height="300" rx="8" fill="#10151d"/>
+  <rect x="162" y="82" width="446" height="276" fill="url(#screen)"/>
+  <path d="M162 358 C300 330 380 250 470 190 C530 150 570 120 608 108 L608 170 C560 200 520 250 460 285 C400 320 300 350 162 358Z" fill="url(#gold)"/>
+  <rect x="182" y="102" width="30" height="6" fill="#d4a84a"/>
+  <rect x="182" y="122" width="150" height="14" rx="3" fill="#ffffff" opacity="0.9"/>
+  <rect x="182" y="144" width="190" height="14" rx="3" fill="#ffffff" opacity="0.9"/>
+  <rect x="182" y="166" width="150" height="14" rx="3" fill="#d4a84a"/>
+  <rect x="182" y="194" width="90" height="16" rx="8" fill="#d4a84a"/>
+  <path d="M110 370 L660 370 L700 396 L70 396Z" fill="#c4ccd8"/>
+  <!-- phone -->
+  <rect x="660" y="120" width="150" height="320" rx="22" fill="#0b1018"/>
+  <rect x="670" y="132" width="130" height="296" rx="14" fill="#0d1b30"/>
+  <rect x="682" y="150" width="60" height="8" rx="3" fill="#d4a84a"/>
+  <rect x="682" y="172" width="104" height="44" rx="6" fill="#16294a"/>
+  <rect x="682" y="226" width="104" height="30" rx="6" fill="#16294a"/>
+  <rect x="682" y="266" width="104" height="30" rx="6" fill="#16294a"/>
+  <rect x="682" y="306" width="104" height="30" rx="6" fill="#16294a"/>
+  <path d="M682 396 l20 -24 l16 14 l22 -34 l20 26" fill="none" stroke="#d4a84a" stroke-width="3"/>
+</svg>

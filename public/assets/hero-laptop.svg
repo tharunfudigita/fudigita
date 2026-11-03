@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2140"/>
+      <stop offset="1" stop-color="#050d1b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5a17"/>
+      <stop offset="0.5" stop-color="#d4a84a"/>
+      <stop offset="1" stop-color="#f3dc9b"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3e7ee"/>
+      <stop offset="1" stop-color="#aab3c0"/>
+    </linearGradient>
+    <clipPath id="clipScreen"><path d="M175 40 L690 70 L650 360 L150 345 Z"/></clipPath>
+  </defs>
+  <!-- plant -->
+  <g transform="translate(60 120)">
+    <path d="M110 330 C70 250 60 170 100 70 C120 160 125 250 110 330Z" fill="#4c6b4a"/>
+    <path d="M110 330 C150 250 190 190 170 100 C130 170 110 250 110 330Z" fill="#5d7f58"/>
+    <path d="M110 330 C40 290 10 230 20 170 C70 210 100 260 110 330Z" fill="#3f5c3e"/>
+    <path d="M110 330 C180 300 220 240 215 190 C160 220 120 270 110 330Z" fill="#6a8d63"/>
+    <path d="M70 330 h80 l-10 60 h-60z" fill="#f2f2ef"/>
+  </g>
+  <!-- screen -->
+  <path d="M175 40 L690 70 L650 360 L150 345 Z" fill="#161c26"/>
+  <path d="M185 52 L678 80 L641 350 L162 336 Z" fill="url(#screen)"/>
+  <g clip-path="url(#clipScreen)">
+    <path d="M150 360 C300 330 380 250 470 190 C560 130 620 100 690 70 L690 130 C620 160 560 230 480 270 C400 310 300 350 150 360Z" fill="url(#gold)" opacity="0.95"/>
+    <path d="M150 340 C310 300 400 230 490 170 C570 115 630 95 690 90" fill="none" stroke="#f3dc9b" stroke-width="2" opacity="0.8"/>
+    <path d="M150 320 C300 290 410 200 500 150" fill="none" stroke="#d4a84a" stroke-width="1" opacity="0.6"/>
+  </g>
+  <!-- base -->
+  <path d="M120 360 L670 380 L760 430 L40 410 Z" fill="url(#base)"/>
+  <path d="M40 410 L760 430 L758 442 L44 422 Z" fill="#8e98a8"/>
+  <path d="M330 395 L500 400 L496 410 L334 405Z" fill="#9aa4b3"/>
+  <!-- mug -->
+  <g transform="translate(690 330)">
+    <rect x="0" y="0" width="90" height="100" rx="10" fill="#0b1a30"/>
+    <path d="M90 25 q38 5 28 40 q-6 14 -28 12" fill="none" stroke="#0b1a30" stroke-width="12"/>
+    <text x="45" y="64" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="38" fill="#d4a84a">F</text>
+  </g>
+</svg>
